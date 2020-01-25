@@ -2,6 +2,7 @@
 
 #include "skse64_common/BranchTrampoline.h"  // g_localTrampoline
 #include "skse64_common/SafeWrite.h"  // SafeWrite8
+#include "skse64_common/Utilities.h"  // GetFnAddr
 #include "xbyak/xbyak.h"
 
 #include <cstdint>  // uintptr_t
